@@ -1,6 +1,5 @@
 # iPoduino Notes Converter
 A simple serverless web-based tool made with vanilla JS/HTML/CSS to convert songs into Arduino code for the IEEE iPoduino project.
-Created with CodeSandbox
 
 All songs must come from [this website](https://pianoletternotes.blogspot.com/p/modern.html) or must be formatted in the same way as they are on this website. There are thousands of songs on here so you'll be able to find yours! See song.txt for an example on formatting.
 
