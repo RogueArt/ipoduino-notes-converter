@@ -25,7 +25,7 @@ export default function parse(contents) {
           "Oops, I had an error parsing this. Here's what I processed so far."
         );
       }
-      return outputCode;
+      return outputCode.trim();
     }
 
     // Store the code in this array
@@ -45,7 +45,7 @@ export default function parse(contents) {
     "Success",
     `Successfully converted your song into Arduino code!`
   );
-  return outputCode;
+  return outputCode.trim();
 }
 
 // Process each line of the given file

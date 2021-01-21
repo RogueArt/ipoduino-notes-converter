@@ -8,7 +8,11 @@
     <title>IEEE - Notes Converter</title>
   </head>
   <body>
-    <h1 id="title">Song to Code Converter</h1>
+    <h1 id="title">
+      <a id="repo-link" href="https://github.com/RogueArt/ipoduino-notes-converter">
+        Song to Code Converter
+      </a>
+    </h1>
 
     <label for="file-input">
       <input type="file" class="button-elems" id="file-input" />
@@ -17,8 +21,16 @@
     <div id="display-result"></div>
     
     <textarea id="output"></textarea>
+    
+    <input type="button" class="button-elems" id="copy-to-clipboard" value="Copy to Clipboard"></input>
 
-    <input type="button" class="button-elems" id="copy-to-clipboard" value="Copy to Clipboard"></button>
+    <h2>How to Use</h2>
+    <ol>
+      <li>Copy notes for any song on <a id="music-site" href="https://pianoletternotes.blogspot.com/p/">this website</a> and store it as a .txt file</li>
+      <li>Upload the .txt file</li>
+      <li>Click "copy to clipboard" and export the code to your Arduino</li>
+    </ol>
+    
   </body>
-  <script src="src/index.js" type="module"></script>
+  <script src="src/index.js"></script>
 </html>

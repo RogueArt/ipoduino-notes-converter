@@ -8,6 +8,10 @@ body {
   flex-direction: column;
 }
 
+#repo-link {
+  text-decoration: none;
+}
+
 .button-elems {
   font-family: "Roboto", sans-serif;
   padding: 5px;
@@ -18,8 +22,29 @@ body {
 textarea {
   font-family: "Roboto", sans-serif;
   width: 33%;
+  height: 100px;
 }
 
 #copy-to-clipboard {
   margin-top: 10px;
+}
+
+h2 {
+  margin: 0px;
+  margin-top: 25px;
+  padding: 0;
+}
+
+ol {
+  text-align: left;
+  margin-top: 10px;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+#music-site {
+  font-weight: bold;
 }
