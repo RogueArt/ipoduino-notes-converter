@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-elems {
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  width: 33%;
+}
+
+#copy-to-clipboard {
+  margin-top: 10px;
+}
