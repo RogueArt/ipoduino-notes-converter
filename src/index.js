@@ -14,7 +14,8 @@ fileInput.addEventListener(
   "change",
   async () => {
     // Get contents of uploaded file
-    const contents = await processFile(fileInput.files[0]);
+    const file = fileInput.files[0];
+    const contents = await processFile(file);
     // Turn the contents into code
     const processedCode = parse(contents);
     displayOutput(processedCode);
