@@ -1,4 +1,4 @@
-export function parse(contents) {
+export default function parse(contents) {
   // Break the song into stanzas
   const stanzas = contents
     .split(/\r\n\s*\r\n/)

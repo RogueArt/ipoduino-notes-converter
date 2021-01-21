@@ -1,4 +1,4 @@
-export async function processFile(file) {
+export default async function processFile(file) {
   // Check if uploaded file is text file
   if (!isTextFile(file.name)) return alert("Only .txt files are supported!");
 

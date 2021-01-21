@@ -1,5 +1,5 @@
 // Copy code to clipboard
-export function copyToClipboard(text) {
+export default function copyToClipboard(text) {
   navigator.clipboard
     .writeText(text)
     .catch((err) => console.error("Could not copy text: ", err));
