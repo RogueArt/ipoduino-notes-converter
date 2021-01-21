@@ -10,4 +10,4 @@ All songs must come from [this website](https://pianoletternotes.blogspot.com/p/
 
 # To-do
 - Optimizing code output to take less space
-- Output value as array rather than function calls
+- Output value as array of notes (CSV) rather than function calls
